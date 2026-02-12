@@ -3,12 +3,16 @@
 
 - I first installed the MPI modules and tried the starter code. Nothing happened which made me learn and search more on how MPI works.
 <img width="609" height="366" alt="image" src="https://github.com/user-attachments/assets/960866a9-5db0-4f42-a10a-b3dcaaa3fcc2" />
+
 - I learned that for the code to run, it must be on a separate Python file. Since I am using Google Colab, I used the writefile command to save the code from that cell into a file. When I ran it in the next cell, it said it detected an attempt to run as root.
 <img width="537" height="488" alt="image" src="https://github.com/user-attachments/assets/01697639-061d-4b36-9bf7-ada572f0dca6" />
+
 - Due to the previous error, I added --allow-run-as-root to the command to allow the MPI to run as the root. It still gave an error message that said there are not enough slots in the system.
-<img width="513" height="456" alt="image" src="https://github.com/user-attachments/assets/9b2a564a-a525-4733-a1b2-c1536661f8e5" />
+<img width="513" height="456" alt="image" src="https://github.com/user-attachments/assets/9b2a564a-a525-4733-a1b2-c1536661f8e5" 
+  
 - Because of the errors, I decided to modify the code first. I gave each worker process a task to calculate the sum of the numbers I provided them. 
 <img width="377" height="476" alt="image" src="https://github.com/user-attachments/assets/c53cb522-72b1-43aa-9cc0-d489713e0691" />
+
 - Finally, to overcome the insufficient slot error earlier, I added --oversubscribe, which allows to run more MPI processes than the available CPU slots. The final output was finally created with the master process and 3 worker processes.
 <img width="492" height="251" alt="image" src="https://github.com/user-attachments/assets/39b9e961-47bb-4f41-b87a-368c8bc609a5" />
 
