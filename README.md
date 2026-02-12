@@ -8,7 +8,7 @@
 <img width="537" height="488" alt="image" src="https://github.com/user-attachments/assets/01697639-061d-4b36-9bf7-ada572f0dca6" />
 
 - Due to the previous error, I added --allow-run-as-root to the command to allow the MPI to run as the root. It still gave an error message that said there are not enough slots in the system.
-<img width="513" height="456" alt="image" src="https://github.com/user-attachments/assets/9b2a564a-a525-4733-a1b2-c1536661f8e5" 
+<img width="513" height="456" alt="image" src="https://github.com/user-attachments/assets/9b2a564a-a525-4733-a1b2-c1536661f8e5" />
   
 - Because of the errors, I decided to modify the code first. I gave each worker process a task to calculate the sum of the numbers I provided them. 
 <img width="377" height="476" alt="image" src="https://github.com/user-attachments/assets/c53cb522-72b1-43aa-9cc0-d489713e0691" />
